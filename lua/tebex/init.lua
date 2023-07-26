@@ -72,7 +72,7 @@ if not Tebex then
 		if (config:get("secret") == "") then
 			Tebex.err( "You have not yet defined your secret key. Use tebex:secret <secret> to define your key" )
 		else
-			Tebex.ok("Starting Tebex_Gmod 0.1")
+			Tebex.ok("Starting Tebex_Gmod 0.3")
 			timer.Simple(5, function()
 				Tebex.commands["info"](nil, {":", "info"})
 			end)
